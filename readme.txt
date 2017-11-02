@@ -1,6 +1,8 @@
 ------------------------------ Description ------------------------------
-Scripts for creating folders with html, javascript, and css files for
-class assignments in C4Q Access Code - 4.1 Web
+Scripts for setting up exercise folder. Will create folders with 
+html, javascript, and css files for class assignments in 
+C4Q Access Code - 4.1 Web
+
 Original link: https://github.com/Acostill/scipts
 -------------------------------------------------------------------------
 
