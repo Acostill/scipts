@@ -3,6 +3,8 @@ Scripts for creating folders with html, javascript, and css files for
 class assignments in C4Q Access Code - 4.1 Web
 Original link: https://github.com/Acostill/scipts
 -------------------------------------------------------------------------
+
+--------------------------- Setup Instructions --------------------------
 1: Download ZIP folder into downloads folder 
 
 2: Unzip folder and rename the unzipped folder to "scripts"
@@ -19,12 +21,13 @@ export PATH=$PATH:~/scripts
 
 5: Restart your terminal, and change directory to the desired location 
 that you want to run the following commands
+-------------------------------------------------------------------------
 
-------------------------------- Commands -------------------------------
+------------------------------- Commands --------------------------------
 bash makesite folder1 folder2 ... folderX
     - creates folders with html, css, javascript file, and images folder.
     It then opens html file in browser and opens all files in visual studio
 
 bash edit file1 file2 ... fileX
     - opens files in visual studio
-------------------------------------------------------------------------
+-------------------------------------------------------------------------
