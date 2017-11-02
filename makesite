@@ -1,0 +1,77 @@
+#!/bin/bash
+#Change this to whichever directory you want to add a web project to.
+DIRECTORY=$(pwd)
+cd $DIRECTORY
+BLUE='\033[0;34m'
+RED='\033[0;31m'
+NC='\033[0m'
+
+#NEWDIR=$1
+printf "Creating a new folder in${BLUE} $DIRECTORY ${NC}\n"
+read -p "Confirm y/n: " CONFIRM
+if [ $CONFIRM == "n" ]
+then
+printf "${RED} Script canceled\n"
+exit
+else
+for NEWDIR in "$@"
+do
+    mkdir $NEWDIR
+    mkdir $NEWDIR/images
+    touch $NEWDIR/$NEWDIR.html $NEWDIR/$NEWDIR.css $NEWDIR/$NEWDIR.js
+
+    #Text within quotes will be added to index.html file
+echo -n "<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">
+    <link rel=\"stylesheet\" type=\"text/css\" href=\"$NEWDIR.css\">
+    <title>$NEWDIR</title>
+</head>
+<body>
+
+    <div class=\"header\">
+
+    </div>
+
+    <div class=\"main\">
+
+    </div>
+
+    <div class=\"footer\">
+
+    </div>
+    
+</body>
+<script src=\"$NEWDIR.js\"></script>
+</html>" >> $NEWDIR/$NEWDIR.html
+
+        #Text within quotes will be added to style.css file
+echo -n ".container {
+
+}
+
+.header {
+
+}
+
+.main {
+
+}
+
+.footer {
+
+}" >> $NEWDIR/$NEWDIR.css
+
+echo -n "" >> $NEWDIR/$NEWDIR.js
+
+#opens created html file in default application, which should be browser
+open --background $NEWDIR/$NEWDIR.html
+#calls bash edit script on the following files
+bash edit $NEWDIR/$NEWDIR.html $NEWDIR/$NEWDIR.css $NEWDIR/$NEWDIR.js
+done
+    
+fi
+exit

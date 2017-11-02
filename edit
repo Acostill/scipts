@@ -1,0 +1,8 @@
+#!/bin/bash
+DIRECTORY=$(pwd)
+cd $DIRECTORY
+
+for FILE1 in "$@"
+do
+    open -a "Visual Studio Code"  $FILE1
+done
