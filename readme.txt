@@ -1,5 +1,5 @@
 ------------------------------ Description ------------------------------
-Scripts for setting up exercise folder. Will create folders with 
+Scripts for setting up exercise folders. Will create folders with 
 html, javascript, and css files for class assignments in 
 C4Q Access Code - 4.1 Web
 -------------------------------------------------------------------------
@@ -35,7 +35,7 @@ your projects, and use the commands below.
 
 ------------------------------- Commands --------------------------------
 $ makesite folder1 folder2 ... folderX
-    1: Creates new project folders with the names you enter
+    1: Creates new project folder(s) with the names you enter
         Examples: 
             $ makesite html-exercise
             (Above command will create a new folder called html-exercise)
@@ -46,7 +46,7 @@ $ makesite folder1 folder2 ... folderX
 
     2: Each created folder will include html, css, javascript file,
        and images folder.
-        Examples:
+        Example:
             $ makesite mySite
             (Inside mySite will be mySite.html, mySite.css, and mySite.js)
 
