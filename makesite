@@ -13,7 +13,8 @@ if [ $CONFIRM == "n" ]
 then
 printf "${RED} Script canceled\n"
 exit
-else
+elif [ $CONFIRM == "y" ]
+then
 for NEWDIR in "$@"
 do
     mkdir $NEWDIR
@@ -72,6 +73,9 @@ open --background $NEWDIR/$NEWDIR.html
 #calls bash edit script on the following files
 bash edit $NEWDIR/$NEWDIR.html $NEWDIR/$NEWDIR.css $NEWDIR/$NEWDIR.js
 done
-    
+
+else
+printf "${RED} Invalid Command!\n"
+exit
 fi
 exit
