@@ -38,19 +38,19 @@ your projects, and use the commands below.
     1. Creates new project folder(s) with the names you enter
     Examples: 
         $ ```makesite html-exercise```
-        #   (Above command will create a 
-        #   new folder called html-exercise)
+        (Above command will create a 
+        new folder called html-exercise)
         
-        makesite sharks panda trailmix
-        #   (Above command will create 3 new folders, one called 
-        #   sharks, another called panda, and another called trailmix)
+        $ ```makesite sharks panda trailmix```
+        (Above command will create 3 new folders, one called 
+        sharks, another called panda, and another called trailmix)
 
     2. Each created folder will include html, css, javascript file,
        and images folder.
     Example:
         $ ```makesite mySite```
-        #   (Inside mySite will be three files called mySite.html, 
-        #    mySite.css, and mySite.js, and one folder called images)
+        (Inside mySite will be three files called mySite.html, 
+        mySite.css, and mySite.js, and one folder called images)
 
     3. Html file will be launched in default application (should be browser)
     html, css, and js files will be opened in Visual Studio Code
@@ -59,9 +59,9 @@ your projects, and use the commands below.
     1. opens files in Visual Studio Code
     Examples:
         $ ```edit *```
-        #   (Above command will open all files in current directory)
+        (Above command will open all files in current directory)
 
         $ edit example.html example.css
-        #   (Above command will open only the 
-        #   example.html and example.css files)
+        (Above command will open only the 
+        example.html and example.css files)
 -------------------------------------------------------------------------
