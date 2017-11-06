@@ -20,6 +20,8 @@ Example: If "scripts" folder is in your Downloads folder,
 run the command below  
 ```mv ~/Downloads/scripts ~/```
 
+
+
 4: Open your .bash_profile file by running the following command.  
 ```open ~/.bash_profile```
 
@@ -39,20 +41,20 @@ _________________________________________________________________________
 Commands
 ---
 * makesite folder1 folder2 ... folderX
-    1. Creates new project folder(s) with the names you enter
+    1. Creates new project folder(s) with the names you enter  
     Examples: 
-        ```makesite html-exercise```
+        ```makesite html-exercise```  
         (Above command will create a 
         new folder called html-exercise)
         
-        ```makesite sharks panda trailmix```
+        ```makesite sharks panda trailmix```  
         (Above command will create 3 new folders, one called 
         sharks, another called panda, and another called trailmix)
 
     2. Each created folder will include html, css, javascript file,
-       and images folder.
+       and images folder.  
     Example:
-        ```makesite mySite```
+        ```makesite mySite```  
         (Inside mySite will be three files called mySite.html, 
         mySite.css, and mySite.js, and one folder called images)
 
@@ -61,7 +63,7 @@ Commands
     html, css, and js files will be opened in Visual Studio Code
 
 * edit file1 file2 ... fileX
-    1. opens files in Visual Studio Code
+    1. opens files in Visual Studio Code  
     Examples:
         ```edit *```
         (Above command will open all files in current directory)
