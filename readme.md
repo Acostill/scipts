@@ -20,8 +20,6 @@ Example: If "scripts" folder is in your Downloads folder,
 run the command below  
 ```mv ~/Downloads/scripts ~/```
 
-
-
 4: Open your .bash_profile file by running the following command.  
 ```open ~/.bash_profile```
 
@@ -32,6 +30,7 @@ export PATH=$PATH:~/scripts
 alias makesite=bash\ makesite
 alias edit=bash\ edit
 ```
+<br>
 6: Restart your terminal, change directory to the location where you save
 your projects, and use the commands below.
 
@@ -42,11 +41,11 @@ Commands
 ---
 * makesite folder1 folder2 ... folderX
     1. Creates new project folder(s) with the names you enter  
-    Examples: 
+    Examples:  
     ```makesite mySite```  
     (Above command will create a 
-    new folder called mySite)
-    
+    new folder called mySite) <br>
+
     ```makesite sharks panda trailmix```  
     (Above command will create 3 new folders, one called 
     sharks, another called panda, and another called trailmix)
@@ -56,8 +55,7 @@ Commands
     Example:  
     ```makesite mySite```  
     (Inside mySite will be three files called mySite.html, 
-    mySite.css, and mySite.js, and one folder called images)
-
+    mySite.css, and mySite.js, and one folder called images)<br>
 
     3. Html file will should launch in your default browser. Then the
     html, css, and js files should be opened in Visual Studio Code
@@ -66,7 +64,7 @@ Commands
     1. opens files in Visual Studio Code  
     Examples:  
     ```edit *```  
-    (Above command will open all files in current directory)
+    (Above command will open all files in current directory)<br>
 
     ```edit exampl.html example.css```  
     (Above command will open only the 
