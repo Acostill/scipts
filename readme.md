@@ -7,32 +7,32 @@ _________________________________________________________________________
 
 Setup Instructions (Mac)
 ---
-1. If reading this on [github](https://github.com/Acostill/scripts), click on
+1: If reading this on [github](https://github.com/Acostill/scripts), click on
 the green "Clone or download" button.
 Click on Download ZIP.
 
-2. Unzip folder and rename the unzipped folder as "scripts".
+2: Unzip folder and rename the unzipped folder as "scripts".
 
-3. Open your terminal and move the newly named scripts folder from 
+3: Open your terminal and move the newly named scripts folder from 
 its current directory to the home directory.
 
 Example: If "scripts" folder is in your Downloads folder, 
 run the command below  
 $ ```mv ~/Downloads/scripts ~/```
 
-4. Open your .bash_profile file by running the following command.  
+4: Open your .bash_profile file by running the following command.  
 $ ```open ~/.bash_profile```
 
-5. Once your .bash_profile is open in the default text editor, copy the 
+5: Once your .bash_profile is open in the default text editor, copy the 
 following lines below. (If you've done this step, no need for duplicates)  
         export PATH=$PATH:~/scripts
         alias makesite=bash\ makesite
         alias edit=bash\ edit
 
-6. Restart your terminal, change directory to the location where you save
+6: Restart your terminal, change directory to the location where you save
 your projects, and use the commands below.
 
-7. Type Faster!!
+7: Type Faster!!
 _________________________________________________________________________
 
 Commands
