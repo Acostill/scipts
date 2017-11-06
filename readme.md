@@ -44,7 +44,7 @@ Commands
     Examples:  
     ```makesite mySite```  
     (Above command will create a 
-    new folder called mySite) <br>
+    new folder called mySite)
 
     ```makesite sharks panda trailmix```  
     (Above command will create 3 new folders, one called 
@@ -55,7 +55,7 @@ Commands
     Example:  
     ```makesite mySite```  
     (Inside mySite will be three files called mySite.html, 
-    mySite.css, and mySite.js, and one folder called images)<br>
+    mySite.css, and mySite.js, and one folder called images)
 
     3. Html file will should launch in your default browser. Then the
     html, css, and js files should be opened in Visual Studio Code
@@ -64,7 +64,7 @@ Commands
     1. opens files in Visual Studio Code  
     Examples:  
     ```edit *```  
-    (Above command will open all files in current directory)<br>
+    (Above command will open all files in current directory)
 
     ```edit exampl.html example.css```  
     (Above command will open only the 
