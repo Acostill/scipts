@@ -1,11 +1,10 @@
-<center>Description</center>
-
+------------------------------ Description ------------------------------ 
 Scripts for setting up exercise folders. Will create folders with 
 html, javascript, and css files for class assignments in 
 C4Q Access Code - 4.1 Web
--------------------------------------------------------------------------
+_________________________________________________________________________
 
------------------------ Setup Instructions (Mac) ------------------------ 
+----------------------- Setup Instructions (Mac) ------------------------
 1. If reading this on [github](https://github.com/Acostill/scripts), click on
 the green "Clone or download" button.
 Click on Download ZIP.
@@ -20,19 +19,19 @@ run the command below
 $ ```mv ~/Downloads/scripts ~/```
 
 4. Open your .bash_profile file by running the following command.
-open ~/.bash_profile
+$ ```open ~/.bash_profile```
 
 5. Once your .bash_profile is open in the default text editor, copy the 
 following lines below. (If you've done this step, no need for duplicates)
-export PATH=$PATH:~/scripts
+```export PATH=$PATH:~/scripts
 alias makesite=bash\ makesite
-alias edit=bash\ edit
+alias edit=bash\ edit```
 
 6. Restart your terminal, change directory to the location where you save
 your projects, and use the commands below.
 
 7. Type Faster!!
--------------------------------------------------------------------------
+_________________________________________________________________________
 
 ------------------------------- Commands -------------------------------- 
 * $ makesite folder1 folder2 ... folderX
