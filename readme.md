@@ -61,10 +61,10 @@ Commands
 * edit file1 file2 ... fileX
     * opens files in Visual Studio Code  
         Examples:  
-        ```edit *```  
+        * ```edit *```  
         (Above command will open all files in current directory)
 
-        ```edit exampl.html example.css```  
+        * ```edit exampl.html example.css```  
         (Above command will open only the 
         example.html and example.css files)
 _________________________________________________________________________
