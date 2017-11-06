@@ -1,11 +1,11 @@
------------------------------- Description ------------------------------
+<center>------------------------------ Description ------------------------------</center>
 Scripts for setting up exercise folders. Will create folders with 
 html, javascript, and css files for class assignments in 
 C4Q Access Code - 4.1 Web
 -------------------------------------------------------------------------
 
------------------------ Setup Instructions (Mac) ------------------------
-1. If reading on github(https://github.com/Acostill/scripts), click on
+----------------------- Setup Instructions (Mac) ------------------------ 
+1. If reading this on [github](https://github.com/Acostill/scripts), click on
 the green "Clone or download" button.
 Click on Download ZIP.
 
@@ -33,7 +33,7 @@ your projects, and use the commands below.
 7. Type Faster!!
 -------------------------------------------------------------------------
 
-------------------------------- Commands --------------------------------
+------------------------------- Commands -------------------------------- 
 * $ makesite folder1 folder2 ... folderX
     1. Creates new project folder(s) with the names you enter
     Examples: 
