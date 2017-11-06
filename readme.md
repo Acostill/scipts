@@ -53,7 +53,7 @@ Commands
 
     2. Each created folder will include html, css, javascript file,
        and images folder.  
-    Example:
+    Example:  
         ```makesite mySite```  
         (Inside mySite will be three files called mySite.html, 
         mySite.css, and mySite.js, and one folder called images)
@@ -64,8 +64,8 @@ Commands
 
 * edit file1 file2 ... fileX
     1. opens files in Visual Studio Code  
-    Examples:
-        ```edit *```
+    Examples:  
+        ```edit *```  
         (Above command will open all files in current directory)
 
         ```edit exampl.ehtml example.css```
