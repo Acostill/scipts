@@ -1,7 +1,5 @@
 Description
-- test
-- test
-- test 
+--- 
 Scripts for setting up exercise folders. Will create folders with 
 html, javascript, and css files for class assignments in 
 C4Q Access Code - 4.1 Web
