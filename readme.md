@@ -17,17 +17,17 @@ Click on Download ZIP.
 its current directory to the home directory.
 
 Example: If "scripts" folder is in your Downloads folder, 
-run the command below
+run the command below  
 $ ```mv ~/Downloads/scripts ~/```
 
-4. Open your .bash_profile file by running the following command.
+4. Open your .bash_profile file by running the following command.  
 $ ```open ~/.bash_profile```
 
 5. Once your .bash_profile is open in the default text editor, copy the 
-following lines below. (If you've done this step, no need for duplicates)
-            export PATH=$PATH:~/scripts
-            alias makesite=bash\ makesite
-            alias edit=bash\ edit
+following lines below. (If you've done this step, no need for duplicates)  
+        export PATH=$PATH:~/scripts
+        alias makesite=bash\ makesite
+        alias edit=bash\ edit
 
 6. Restart your terminal, change directory to the location where you save
 your projects, and use the commands below.
