@@ -25,7 +25,8 @@ $ ```open ~/.bash_profile```
 
 5: Once your .bash_profile is open in the default text editor, copy the 
 following lines below. (If you've done this step, no need for duplicates)  
-```export PATH=$PATH:~/scripts
+```
+export PATH=$PATH:~/scripts
 alias makesite=bash\ makesite
 alias edit=bash\ edit
 ```
