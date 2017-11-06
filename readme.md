@@ -5,7 +5,8 @@ html, javascript, and css files for class assignments in
 C4Q Access Code - 4.1 Web
 _________________________________________________________________________
 
------------------------ Setup Instructions (Mac) ------------------------
+Setup Instructions (Mac)
+---
 1. If reading this on [github](https://github.com/Acostill/scripts), click on
 the green "Clone or download" button.
 Click on Download ZIP.
@@ -24,9 +25,9 @@ $ ```open ~/.bash_profile```
 
 5. Once your .bash_profile is open in the default text editor, copy the 
 following lines below. (If you've done this step, no need for duplicates)
-    export PATH=$PATH:~/scripts
-    alias makesite=bash\ makesite
-    alias edit=bash\ edit
+        export PATH=$PATH:~/scripts
+        alias makesite=bash\ makesite
+        alias edit=bash\ edit
 
 6. Restart your terminal, change directory to the location where you save
 your projects, and use the commands below.
@@ -62,7 +63,7 @@ _________________________________________________________________________
         $ ```edit *```
         (Above command will open all files in current directory)
 
-        $ edit example.html example.css
+        $ ```edit example.html example.css```
         (Above command will open only the 
         example.html and example.css files)
--------------------------------------------------------------------------
+_________________________________________________________________________
