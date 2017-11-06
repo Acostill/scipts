@@ -25,9 +25,9 @@ $ ```open ~/.bash_profile```
 
 5. Once your .bash_profile is open in the default text editor, copy the 
 following lines below. (If you've done this step, no need for duplicates)
-        export PATH=$PATH:~/scripts
-        alias makesite=bash\ makesite
-        alias edit=bash\ edit
+            export PATH=$PATH:~/scripts
+            alias makesite=bash\ makesite
+            alias edit=bash\ edit
 
 6. Restart your terminal, change directory to the location where you save
 your projects, and use the commands below.
@@ -35,7 +35,8 @@ your projects, and use the commands below.
 7. Type Faster!!
 _________________________________________________________________________
 
-------------------------------- Commands -------------------------------- 
+Commands
+---
 * $ makesite folder1 folder2 ... folderX
     1. Creates new project folder(s) with the names you enter
     Examples: 
