@@ -66,7 +66,9 @@ echo -n ".container {
 
 }" >> $NEWDIR/$NEWDIR.css
 
-echo -n "" >> $NEWDIR/$NEWDIR.js
+echo -n "document.addEventListener('DOMContentloaded', function () {
+    
+})" >> $NEWDIR/$NEWDIR.js
 
 #opens created html file in default application, which should be browser
 open --background $NEWDIR/$NEWDIR.html

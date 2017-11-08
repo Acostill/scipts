@@ -30,7 +30,7 @@ export PATH=$PATH:~/scripts
 alias makesite=bash\ makesite
 alias edit=bash\ edit
 ```
-<br>
+
 6: Restart your terminal, change directory to the location where you save
 your projects, and use the commands below.
 
@@ -62,7 +62,7 @@ Commands
     * opens files in Visual Studio Code  
         Examples:  
         * ```edit *```  
-        (Above command will open all files in current directory)
+        (Above command will open all files and folders in current directory)
 
         * ```edit exampl.html example.css```  
         (Above command will open only the 
