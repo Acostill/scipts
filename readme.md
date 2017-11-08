@@ -55,7 +55,7 @@ Commands
         (Inside mySite will be three files called mySite.html, 
         mySite.css, and mySite.js, and one folder called images)
 
-    * Html file will should launch in your default browser. Then the
+    * Html file should launch in your default browser. Then the
     html, css, and js files should be opened in Visual Studio Code
 
 * edit file1 file2 ... fileX
