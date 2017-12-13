@@ -44,9 +44,9 @@ echo -n "<!DOCTYPE html>
     <div class=\"footer\">
 
     </div>
-    
+    <script src=\"$NEWDIR.js\"></script>
 </body>
-<script src=\"$NEWDIR.js\"></script>
+
 </html>" >> $NEWDIR/$NEWDIR.html
 
         #Text within quotes will be added to style.css file
